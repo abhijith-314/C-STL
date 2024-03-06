@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-     // step 1 code a loop to push elements into the vector
+     // part 1 code a loop to push elements into the vector
 
      vector<int> v1;
 
@@ -12,7 +12,7 @@ int main(){
         v1.push_back(j);
      }
 
-     // step 2 find out the capacity and size of the element in the vector
+     // part 2 find out the capacity and size of the element in the vector
 
      cout << v1.size() << ", is the size of the vector" << endl;
      cout << v1.capacity() << ", is the capacity of the vector" << endl;
